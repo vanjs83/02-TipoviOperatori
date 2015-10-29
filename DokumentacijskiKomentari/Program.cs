@@ -27,7 +27,14 @@ namespace CSharp.TipoviOperatori
             return broj * broj;
         }
 
-
+        /// <summary>
+        /// Funkcija duljinaDvije Rijeci vraca broj karaktera ybroju dviju rijeci
+        /// </summary>
+        /// <param name="prva"></param>
+        /// Prva rijec u funkciji, prvi parametar
+        /// <param name="druga"></param>
+        /// druga rijec u funkciji drugi parametar
+        /// <returns></returns>
         static int DuljinaDvijeRiječi(string prva, string druga)
         {
             return (prva + druga).Length;
