@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imenici", "PromjenaImenika\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pretvorba", "Pretvorba\Pretvorba.csproj", "{77CBE4BF-9965-4858-AF32-CB85D4F83212}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{12B0B9BA-D848-484A-86BE-8A68A2F51DDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -184,6 +186,16 @@ Global
 		{77CBE4BF-9965-4858-AF32-CB85D4F83212}.Release|Mixed Platforms.Build.0 = Release|x86
 		{77CBE4BF-9965-4858-AF32-CB85D4F83212}.Release|x86.ActiveCfg = Release|x86
 		{77CBE4BF-9965-4858-AF32-CB85D4F83212}.Release|x86.Build.0 = Release|x86
+		{12B0B9BA-D848-484A-86BE-8A68A2F51DDC}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{12B0B9BA-D848-484A-86BE-8A68A2F51DDC}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{12B0B9BA-D848-484A-86BE-8A68A2F51DDC}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{12B0B9BA-D848-484A-86BE-8A68A2F51DDC}.Debug|x86.ActiveCfg = Debug|x86
+		{12B0B9BA-D848-484A-86BE-8A68A2F51DDC}.Debug|x86.Build.0 = Debug|x86
+		{12B0B9BA-D848-484A-86BE-8A68A2F51DDC}.Release|Any CPU.ActiveCfg = Release|x86
+		{12B0B9BA-D848-484A-86BE-8A68A2F51DDC}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{12B0B9BA-D848-484A-86BE-8A68A2F51DDC}.Release|Mixed Platforms.Build.0 = Release|x86
+		{12B0B9BA-D848-484A-86BE-8A68A2F51DDC}.Release|x86.ActiveCfg = Release|x86
+		{12B0B9BA-D848-484A-86BE-8A68A2F51DDC}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
