@@ -7,6 +7,7 @@ namespace CSharp.TipoviOperatori
         static void Main()
         {
             Console.WriteLine("Krećem iz Class1.Main()");
+            Console.ReadKey();
         }
     }
 }
