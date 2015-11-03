@@ -9,6 +9,10 @@ namespace CSharp.TipoviOperatori
     {
         static void Main(string[] args)
         {
+            
+            Nullable<double>nulabilnaVarijabla=Math.PI;
+            Console.WriteLine(nulabilnaVarijabla);
+
             double? nulabilniDuplić = Math.PI;
             Console.WriteLine(nulabilniDuplić);
 
@@ -16,6 +20,7 @@ namespace CSharp.TipoviOperatori
 
 
             Console.ReadKey();
+            
         }
     }
 }
