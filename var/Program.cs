@@ -5,10 +5,10 @@ namespace CSharp.TipoviOperatori
     {
         public int a;
         public double b;
-        public S() {
-            a = 2;
-            b = 3.15;
-        }
+        public S(int aS, double bS) {
+            a = aS;
+            b = bS;
+    }
 
     }
 
@@ -24,8 +24,8 @@ namespace CSharp.TipoviOperatori
             int i1 = 5;
             double d1 = 3.2;
             //zadatak3
-          var s=new S();
-           
+          var s=new S(2,3.15);
+          
 
 
 
