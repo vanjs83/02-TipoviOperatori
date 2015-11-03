@@ -22,11 +22,23 @@ namespace CSharp.TipoviOperatori
         static void Main(string[] args)
         {
             Osoba osoba = new Osoba();
+            osoba.ToString();
+            osoba.DajOib();
+            osoba.GetHashCode();
+            osoba.GetType();
+            osoba.Equals( "545451454");
+
+
 
             
             Osoba osobaStudent = new Student();
+            osobaStudent.DajOib();
+            osobaStudent.Equals(5);
+            osobaStudent.GetHashCode();
+            osobaStudent.GetType();
+            osobaStudent.ToString();
 
-
+            //Student studos = new Osoba(); moramo izvesti eksplicitni cast
 
         }
     }
