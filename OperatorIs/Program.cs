@@ -13,9 +13,16 @@ namespace CSharp.TipoviOperatori
             Osoba janko = new Student();
             
             Osoba osoba = new Osoba();
-
-
-            Console.ReadKey();
+            if (janko is Student)
+                Console.WriteLine("janko je tipa Student \n");
+            if(janko is Osoba)
+                Console.WriteLine("janko je tipa Osoba\n");
+            if (osoba is Osoba)
+                Console.WriteLine("osoba je tipa Osoba\n");
+            if(osoba is Student)
+                Console.WriteLine("osoba je tipa Student\n");
+                Console.ReadKey();
+            
         }
     }
 }
