@@ -8,7 +8,7 @@ namespace CSharp.TipoviOperatori
         static void Main(string[] args)
         {
             Type t = typeof(System.DateTime);
-
+            Console.WriteLine(t);//pregled informacija u t
             MethodInfo[] mis = t.GetMethods();
             foreach (MethodInfo mi in mis)
             {
