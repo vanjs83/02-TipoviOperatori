@@ -60,7 +60,7 @@ namespace Pretvorba
             sos.GetType();
             sos.PoložiIspit("povijest");
             sos.ToString();
-
+            
             Osoba osobaR = new Radnik();
             // dodati sve moguće pozive metoda za osobaR
             osobaR.DajSvojOib();
@@ -68,7 +68,7 @@ namespace Pretvorba
             osobaR.GetHashCode();
             osobaR.GetType();
             osobaR.ToString();
-
+            
             Radnik sor = (Radnik)osobaR;
             // dodati sve moguće pozive metoda za sor
             sor.DajSvojOib();
@@ -76,8 +76,9 @@ namespace Pretvorba
             sor.GetHashCode();
             sor.GetHashCode();
             sor.GetType();
-            //sor.PoložiIspit("likovni");
+            sor.Napravi("kolac");
             sor.ToString();
+            
             
         }
     }
