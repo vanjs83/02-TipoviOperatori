@@ -27,14 +27,16 @@ namespace CSharp.TipoviOperatori
 
             try
             {
-                jankoSljaker = (Radnik)janko;
+                //jankoSljaker = (Radnik)janko;
+              jankoSljaker = janko as Radnik;
             }
             catch (Exception e)
             {
                 Console.WriteLine("Bačena iznimka!");
                 Console.WriteLine(e.Message);
             }
-
+            Pretvorba1();
+            Pretvorba2();
             Console.ReadKey();
         }
 
@@ -47,6 +49,8 @@ namespace CSharp.TipoviOperatori
             {
                 Student studentJanko = (Student)janko;
                 // iskoristi studenta unutar bloka
+                
+
             }
         }
 
